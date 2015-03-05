@@ -3,8 +3,6 @@
 #include "ofMain.h"
 #include "ofxJSON.h"
 #include "ofxHttpUtils.h"
-#include "ofxWiringPi.h"
-
 
 class ofApp : public ofBaseApp{
 
@@ -22,6 +20,6 @@ public:
     string action_url;
     float value;
 
-    
+
 		
 };

@@ -7,7 +7,7 @@ void ofApp::setup(){
 
     httpUtils.setBasicAuthentication("CMU_Students","Energy1?");
     
-    
+   
 }
 
 //--------------------------------------------------------------
@@ -40,7 +40,7 @@ void ofApp::update(){
             {
                 ofLog() << "could not parse";
             }
-            
+           
             //get the "value" parameter and read it as a float
             value = json["Value"].asFloat();
             

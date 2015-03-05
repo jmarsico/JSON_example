@@ -417,7 +417,8 @@ obj/linuxarmv6l/Release/src/main.o: src/main.cpp src/ofApp.h \
  addons/ofxWiringPi/lib/wiringPi/include/pcf8591.h \
  addons/ofxWiringPi/lib/wiringPi/include/softTone.h \
  addons/ofxWiringPi/lib/wiringPi/include/wiringPiI2C.h \
- addons/ofxWiringPi/lib/wiringPi/include/wiringShift.h
+ addons/ofxWiringPi/lib/wiringPi/include/wiringShift.h \
+ addons/ofxWiringPi/lib/wiringPi/include/wiringPi.h
 
 src/ofApp.h:
 
@@ -1300,3 +1301,5 @@ addons/ofxWiringPi/lib/wiringPi/include/softTone.h:
 addons/ofxWiringPi/lib/wiringPi/include/wiringPiI2C.h:
 
 addons/ofxWiringPi/lib/wiringPi/include/wiringShift.h:
+
+addons/ofxWiringPi/lib/wiringPi/include/wiringPi.h:
